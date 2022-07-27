@@ -1,18 +1,18 @@
-a = list(map(int, input().split()))
-b = list(map(int, input().split()))
-c = list(map(int, input().split()))
-x = 0
-y = 0
-if(a[0] == b[0]):
-    x = c[0]
-if(a[0] == c[0]):
-    x = b[0]
-if(c[0] == b[0]):
-    x = a[0]
-if(a[1] == b[1]):
-    y = c[1]
-if(a[1] == c[1]):
-    y = b[1]
-if(c[1] == b[1]):
-    y = a[1]
+xs = []
+ys = []
+x, y = 0, 0
+
+for i in range(3):
+	coordinate = list(map(int, input().split()))
+	xs.append(coordinate[0])
+	ys.append(coordinate[1])
+
+for xx in xs:
+	if xs.count(xx) == 1:
+		x = xx
+
+for yy in ys:
+	if ys.count(yy) == 1:
+		y = yy
+
 print(x, y)
