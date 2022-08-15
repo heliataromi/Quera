@@ -6,8 +6,8 @@ class Proxy:
         self.last_invoked = ''
 
     def __getattr__(self, attr):
-        if(attr in dir(self._obj)):
-            if(attr in self.calls):
+        if attr in dir(self._obj):
+            if attr in self.calls:
                 self.calls[attr] += 1
             else:
                 self.calls[attr] = 1
@@ -17,27 +17,27 @@ class Proxy:
             raise Exception('No Such Method')
         
     def last_invoked_method(self):
-        if(len(self.calls) == 0):
+        if len(self.calls) == 0:
             raise Exception('No Method Is Invoked')
         else:
             return self.last_invoked
 
     def count_of_calls(self, method_name):
-        if(not hasattr(self._obj, method_name)):
+        if not hasattr(self._obj, method_name):
             return 0
         else:
-            if(method_name not in self.calls):
+            if method_name not in self.calls:
                 return 0
             else:
                 return self.calls[method_name]
 
     def was_called(self, method_name):
-        if(method_name in self.calls):
+        if method_name in self.calls:
             return True
         else:
             return False
 
-class Radio():
+class Radio:
     def __init__(self):
         self._channel = None
         self.is_on = False

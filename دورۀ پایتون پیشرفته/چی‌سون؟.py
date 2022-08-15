@@ -1,15 +1,17 @@
-import json
+from json import loads
+
+variables = {}
 
 n = int(input())
 for i in range(n):
     inp = input()
-    if(':=' in inp):
-        name = inp[:inp.index(':')]
-        js = json.loads(inp[inp.index('=') + 1:])
-        print(name,js)
-#        print(json.dump(js, name))
-#        print(jjj)
-    else:
-        print(inp[inp.index(' ') + 1:])
-#    jsn
 
+    if ':=' in inp:
+        name = inp[:inp.index(' ')]
+        value = loads(inp[inp.index(' ') + 3:])
+        variables[name] = value
+
+    else:
+        variable = inp[inp.index(' ') + 1:inp.index('[')]
+        key = loads(inp[inp.index('[') + 1:inp.index(']')])
+        print(variables[variable][key])
