@@ -1,0 +1,34 @@
+bebin azinja() {
+    /* => START DO NOT CHANGE THIS SECTION <= */
+    number1 = 20;
+    number2 = 85;
+    operator = "-";
+    /* => END DO NOT CHANGE THIS SECTION <= */
+    // TODO
+    // Full Documentation: https://mr-hashemi.github.io/mr-hashemi/
+    
+    age (operator == "+") bood {
+    	hasel = number1 + number2;
+    	bechap (hasel);
+    }
+    
+    age (operator == "-") bood {
+    	hasel = number1 - number2;
+    	bechap (hasel);
+    }
+    
+    age (operator == "*") bood {
+    	hasel = number1 * number2;
+    	bechap (hasel);
+    }
+    
+    age (operator == "/") bood {
+    	hasel = number1 / number2;
+    	bechap (hasel);
+    }
+    
+    age (operator == "%") bood {
+    	hasel = number1 % number2;
+    	bechap (hasel);
+    }
+} 

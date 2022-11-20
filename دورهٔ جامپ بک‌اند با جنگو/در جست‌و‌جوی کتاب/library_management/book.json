@@ -1,0 +1,26 @@
+[
+    {
+        "model": "library_management.book",
+        "pk": 1,
+        "fields": {
+            "title": "The Adventures of Huckleberry Finn",
+            "genre": "Adventure fiction"
+        }
+    },
+    {
+        "model": "library_management.book",
+        "pk": 2,
+        "fields": {
+            "title": "All Together Dead",
+            "genre": "Gothic fiction"
+        }
+    },
+    {
+        "model": "library_management.book",
+        "pk": 3,
+        "fields": {
+            "title": "Lord of the Rings",
+            "genre": "Fiction"
+        }
+    }
+]
