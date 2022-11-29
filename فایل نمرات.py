@@ -20,19 +20,25 @@ class CourseUtil:
 		if line_number > len(self.file_lines):
 			return None
 		data = self.file_lines[line_number - 1].split()
-		return Grade(data[0], data[1], data[2])
+		return Grade(int(data[0]), int(data[1]), float(data[2]))
 
 	def save(self, grade):
 		data = ' '.join([str(grade.student_id), str(grade.course_code), str(grade.score)])
+		for line in self.file_lines:
+			if line.split()[0] == str(grade.student_id) and line.split()[1] == str(grade.course_code):
+				return self.file
 		self.file.write('\n')
+		self.file_lines[-1] += '\n'
 		self.file.write(data)
+		self.file_lines.append(data)
+		return self.file
 
 	def calc_course_average(self, course_code):
 		scores = []
 		for line in self.file_lines:
 			data = line.split()
-			if data[1] == course_code:
-				scores.append(data[2])
+			if int(data[1]) == course_code:
+				scores.append(float(data[2]))
 
 		return sum(scores) / len(scores)
 
@@ -40,8 +46,8 @@ class CourseUtil:
 		scores = []
 		for line in self.file_lines:
 			data = line.split()
-			if data[0] == student_id:
-				scores.append(data[2])
+			if int(data[0]) == student_id:
+				scores.append(float(data[2]))
 
 		return sum(scores) / len(scores)
 
