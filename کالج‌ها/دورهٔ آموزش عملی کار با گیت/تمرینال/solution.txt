@@ -1,0 +1,14 @@
+mkdir backup
+cp -r a backup
+cp -r b backup
+
+mkdir media
+cp a/2.png media/a.png
+cp b/2.png media/b.png
+
+mkdir text
+cp a/1.txt text/a.txt
+cp b/1.txt text/b.txt
+
+rm -rf a
+rm -rf b
