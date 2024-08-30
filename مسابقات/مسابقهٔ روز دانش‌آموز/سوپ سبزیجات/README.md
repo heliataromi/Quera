@@ -1,0 +1,1 @@
+متن سؤال در [این‌جا](https://quera.org/problemset/72881) قرار دارد.
