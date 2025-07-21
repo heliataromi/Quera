@@ -4,7 +4,7 @@ from flying_vehicle import FlyingVehicle
 
 
 class Airplane(GroundVehicle, FlyingVehicle):
-    def __init__(self, airline, number_of_crew, captain, **kwargs):
+    def __init__(self, airline: str, number_of_crew: int, captain: str, **kwargs):
         self.airline = airline
         self.number_of_crew = number_of_crew
         self.captain = captain

@@ -1,0 +1,1 @@
+متن سؤال در [این‌جا](https://quera.org/college/3078/chapter/9196/lesson/31130/) قرار دارد.

@@ -1,5 +1,5 @@
 import unittest, math
-from ..solution import Drug, Pharmacy
+from main import Drug, Pharmacy
 
 
 class DrugTest(unittest.TestCase):
