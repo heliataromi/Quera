@@ -3,21 +3,20 @@ from re import fullmatch
 
 class Security:
 
-    def secure(self, info):
+    def secure(self, info: str) -> str:
         split_info = info.split()
         for i in range(len(split_info)):
-            inf = split_info[i]
-            if self.is_social_account_info(inf):
-                split_info[i] = inf[:inf.rindex('/') + 1] + self.encrypt(inf[inf.rindex('/') + 1:])
+            if self.is_social_account_info(split_info[i]):
+                split_info[i] = split_info[i][:split_info[i].rindex('/') + 1] + self.encrypt(split_info[i][split_info[i].rindex('/') + 1:])
         return ' '.join(split_info)
 
-    def is_social_account_info(self, param):
+    def is_social_account_info(self, param: str) -> bool:
         pattern = r'^[A-Z][a-z]+:www.[a-z0-9\.]+\/\w+$'
         if fullmatch(pattern, param):
             return True
         return False
 
-    def encrypt(self, s):
+    def encrypt(self, s: str) -> int:
         last_char = ''
         uniform_substring = ''
         encryption = ''
@@ -35,3 +34,4 @@ class Security:
                 weight = ascii_code - 96
                 encryption += str(weight * 1)
         return encryption
+

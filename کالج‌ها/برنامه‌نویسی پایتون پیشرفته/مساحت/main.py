@@ -1,8 +1,10 @@
 import math
+from typing import Callable
 
 
-def get_func(ls):
+def get_func(ls: list[str]) -> list[Callable]:
     funcs = []
+    
     for shape in ls:
         if shape == 'square':
             funcs.append(lambda a: a ** 2)
