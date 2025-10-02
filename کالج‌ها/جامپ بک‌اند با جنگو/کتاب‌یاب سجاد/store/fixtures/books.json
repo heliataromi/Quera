@@ -1,0 +1,182 @@
+[
+  {
+    "model": "store.book",
+    "pk": 1,
+    "fields": {
+      "title": "Two Scoops of Django 3.x",
+      "author": "Daniel Roy Greenfeld",
+      "price": 125000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 2,
+    "fields": {
+      "title": "Django for Beginners",
+      "author": "William S. Vincent",
+      "price": 98000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 3,
+    "fields": {
+      "title": "Test-Driven Development with Python",
+      "author": "Harry J.W. Percival",
+      "price": 112000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 4,
+    "fields": {
+      "title": "Fluent Python",
+      "author": "Luciano Ramalho",
+      "price": 145000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 5,
+    "fields": {
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 102000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 6,
+    "fields": {
+      "title": "Designing Web APIs",
+      "author": "Brenda Jin",
+      "price": 94000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 7,
+    "fields": {
+      "title": "High Performance Django",
+      "author": "Peter Baumgartner",
+      "price": 99000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 8,
+    "fields": {
+      "title": "You Don’t Know JS: Scope & Closures",
+      "author": "Kyle Simpson",
+      "price": 75000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 9,
+    "fields": {
+      "title": "Refactoring",
+      "author": "Martin Fowler",
+      "price": 118000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 10,
+    "fields": {
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt",
+      "price": 103000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 11,
+    "fields": {
+      "title": "Clean Architecture",
+      "author": "Robert C. Martin",
+      "price": 119000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 12,
+    "fields": {
+      "title": "The Clean Coder",
+      "author": "Robert C. Martin",
+      "price": 99000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 13,
+    "fields": {
+      "title": "Clean Agile",
+      "author": "Robert C. Martin",
+      "price": 108000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 14,
+    "fields": {
+      "title": "Agile Software Development",
+      "author": "Robert C. Martin",
+      "price": 122000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 15,
+    "fields": {
+      "title": "Grokking Algorithms",
+      "author": "Aditya Bhargava",
+      "price": 98000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 16,
+    "fields": {
+      "title": "Grokking the Coding Interview",
+      "author": "Design Gurus",
+      "price": 125000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 17,
+    "fields": {
+      "title": "Grokking System Design Interview",
+      "author": "Design Gurus",
+      "price": 138000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 18,
+    "fields": {
+      "title": "Grokking the Object-Oriented Design Interview",
+      "author": "Design Gurus",
+      "price": 119000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 19,
+    "fields": {
+      "title": "Grokking Deep Learning",
+      "author": "Andrew Trask",
+      "price": 105000
+    }
+  },
+  {
+    "model": "store.book",
+    "pk": 20,
+    "fields": {
+      "title": "Django 4 By Example",
+      "author": "Antonio Mele",
+      "price": 132000
+    }
+  }
+]

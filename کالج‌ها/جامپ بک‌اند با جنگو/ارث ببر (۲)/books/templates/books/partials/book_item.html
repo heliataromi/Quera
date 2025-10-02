@@ -1,0 +1,6 @@
+<div class="book-card">
+    <h3>{{ book.title }}</h3>
+    <p>نویسنده: {% firstof book.author "ناشناس" %}</p>
+    <p>قیمت: book.price تومان</p>
+    <p>تاریخ انتشار: book.publish_date</p>
+</div>

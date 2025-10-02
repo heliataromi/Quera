@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'blog/post_detail.css' %}">
+{% endblock %}
+
+{% block title %}{{ post.title|title }}{% endblock %}
+
+{% block content %}
+<article class="post-detail-card">
+    <div class="post-detail-header">
+        <h1 class="post-detail-title">{{ post.title|title }}</h1>
+        <div class="post-detail-meta">
+            <span class="post-author">✍ {{ post.author|default:"Anonymous" }}</span>
+            <span class="post-date">📅 {{ post.created_at|date:"F j, Y" }}</span>
+            <span class="post-rate">⭐ {{ post.rate|default_if_none:"No rating" }}</span>
+            <span class="post-category">📂 {{ post.category|title }}</span>
+        </div>
+    </div>
+
+    <section class="post-detail-content">
+        <p>{{ post.content }}</p>
+    </section>
+
+    <div class="post-detail-footer">
+        <a href="{% url 'post_list' %}" class="back-to-list">← Back to all posts</a>
+    </div>
+</article>
+{% endblock %}

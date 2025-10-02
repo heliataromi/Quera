@@ -1,0 +1,102 @@
+[
+    {
+        "model": "books.book",
+        "pk": 1,
+        "fields": {
+            "title": "Django for Beginners",
+            "author": "William S. Vincent",
+            "price": "450000",
+            "publish_date": "2023-04-15"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 2,
+        "fields": {
+            "title": "Two Scoops of Django 3.x",
+            "author": "Audrey Roy Greenfeld, Daniel Roy Greenfeld",
+            "price": "520000",
+            "publish_date": "2022-07-10"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 3,
+        "fields": {
+            "title": "Test-Driven Development with Python",
+            "author": "Harry J.W. Percival",
+            "price": "600000",
+            "publish_date": "2021-09-05"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 4,
+        "fields": {
+            "title": "Django Design Patterns and Best Practices",
+            "author": "Arun Ravindran",
+            "price": "480000",
+            "publish_date": "2020-03-18"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 5,
+        "fields": {
+            "title": "Building RESTful Web APIs with Django",
+            "author": "Gastón C. Hillar",
+            "price": "550000",
+            "publish_date": "2019-11-12"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 6,
+        "fields": {
+            "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+            "author": "Robert C. Martin",
+            "price": "620000",
+            "publish_date": "2017-08-01"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 7,
+        "fields": {
+            "title": "The Pragmatic Programmer",
+            "author": "Andrew Hunt, David Thomas",
+            "price": "580000",
+            "publish_date": "2019-09-13"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 8,
+        "fields": {
+            "title": "Software Engineering: A Practitioner's Approach",
+            "author": "",
+            "price": "700000",
+            "publish_date": "2020-01-22"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 9,
+        "fields": {
+            "title": "Refactoring: Improving the Design of Existing Code",
+            "author": "",
+            "price": "640000",
+            "publish_date": "2018-06-25"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 10,
+        "fields": {
+            "title": "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+            "author": "Eric Evans",
+            "price": "680000",
+            "publish_date": "2015-02-14"
+        }
+    }
+]

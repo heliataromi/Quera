@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>خانه</title>
+    <style>
+        @font-face {
+            font-family: 'Vazir';
+            src: url("{% static 'font/vazir.woff2' %}");
+        }
+    </style>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+    <div id="content">
+        <h1>به وب‌سایت ما خوش آمدید!</h1>
+        <p>این صفحه‌ی اصلی ماست. از اینجا می‌تونید به بخش‌های مختلف سایت دسترسی پیدا کنید.</p>
+        <div id="links">
+            <a href="{% url 'courses:list' %}">لیست دوره‌ها</a>
+            <a href="{% url 'about' %}">رفتن به صفحه‌ی «درباره‌ ما»</a>
+        </div>
+    </div>
+
+    <footer dir="ltr">© {{ year }} All rights reserved.</footer>
+</body>
+</html>

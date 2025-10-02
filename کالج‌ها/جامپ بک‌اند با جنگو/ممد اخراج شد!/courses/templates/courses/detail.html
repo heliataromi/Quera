@@ -1,0 +1,26 @@
+{% load humanize %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <title>جزئیات دوره - {{ course.title }}</title>
+    <link rel="stylesheet" href="{% static 'courses/detail.css' %}">
+</head>
+<body>
+
+<div class="container">
+    <a href="{% url 'courses:list' %}" class="back-btn">&laquo; بازگشت به لیست دوره‌ها</a>
+
+    <div class="card" dir="rtl">
+        {% if course.poster_url %}
+            <img src="{{ course.poster_url }}" alt="{{ course.title }}" class="card-img-top" />
+        {% endif %}
+        <h2 class="card-title">{{ course.title }}</h2>
+        <p class="price">{{ course.price|intcomma }} تومان</p>
+    </div>
+</div>
+
+</body>
+</html>

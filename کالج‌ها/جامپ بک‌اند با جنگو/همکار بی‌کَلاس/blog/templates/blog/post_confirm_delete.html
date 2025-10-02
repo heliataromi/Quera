@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}حذف پست | StoryBoard{% endblock %}
+
+{% block content %}
+<div class="container page" style="max-width: 760px;">
+  <article class="card">
+    <header class="page-header">
+      <h1>🗑️ حذف پست</h1>
+      <p class="hint">آیا از حذف این پست مطمئن هستید؟ این عمل قابل بازگشت نیست.</p>
+    </header>
+
+    <div class="prose" style="margin: 12px 0 20px;">
+      <p style="margin: 0"><strong>عنوان:</strong> {{ object.title|default:post.title }}</p>
+      <p style="margin: 0"><strong>دسته‌بندی:</strong> {{ object.category|default:post.category }}</p>
+      <p style="margin: 0"><strong>نویسنده:</strong> {{ object.author|default:"Anonymous" }}</p>
+    </div>
+
+    <form method="post" style="display:flex; gap:.6rem; justify-content:flex-end;">
+      {% csrf_token %}
+      <a class="btn btn-ghost" href="{% if object %}{{ object.get_absolute_url }}{% else %}{% url 'blog:post_list' %}{% endif %}">انصراف</a>
+      <button type="submit" class="btn" style="background: linear-gradient(135deg, var(--danger), #ef476f); color: #fff;">بله، حذف شود</button>
+    </form>
+  </article>
+</div>
+{% endblock %}

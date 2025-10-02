@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h2 class="text-center mt-5">Welcome to the Gym!</h2>
+    <p class="text-center text-muted mb-4"><i>register <a href="{% url 'signup' %}">here</a> and get ready to reach your fitness goals!</i></p>
+    <div class="text-center w-100">
+        <a class="btn btn-primary text-center w-50" href="{% url 'signup' %}">SignUp</a>
+    </div>
+{% endblock %}

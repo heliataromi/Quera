@@ -1,0 +1,122 @@
+[
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "title": "django template filters",
+      "author": "Alice",
+      "category": "programming",
+      "content": "Django provides a rich set of built-in template filters that allow you to manipulate data before displaying it. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "rate": 5,
+      "created_at": "2025-08-01T10:15:00Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "title": "building a blog",
+      "author": "Bob",
+      "category": "web development",
+      "content": "In this tutorial, we will walk through the steps of building a blog from scratch using Django. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "rate": 4,
+      "created_at": "2025-08-02T12:30:00Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+      "title": "python tips and tricks",
+      "author": "Charlie",
+      "category": "programming",
+      "content": "Here are some useful Python tips and tricks to make your coding more efficient and clean. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "rate": null,
+      "created_at": "2025-07-28T09:00:00Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+      "title": "design patterns",
+      "author": null,
+      "category": "software engineering",
+      "content": "Design patterns are typical solutions to common problems in software design. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "rate": 5,
+      "created_at": "2025-07-25T15:45:00Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+      "title": "frontend development",
+      "author": "Eve",
+      "category": "web development",
+      "content": "Frontend development involves creating the user interface and user experience of a website. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "rate": 3,
+      "created_at": "2025-08-05T08:20:00Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+      "title": "machine learning basics",
+      "author": "Frank",
+      "category": "ai",
+      "content": "Machine learning is a branch of artificial intelligence focused on building systems that learn from data. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "rate": null,
+      "created_at": "2025-08-07T11:10:00Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+      "title": "deep learning intro",
+      "author": "Grace",
+      "category": "ai",
+      "content": "Deep learning is a subset of machine learning using neural networks with many layers. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "rate": 0,
+      "created_at": "2025-07-30T14:55:00Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 8,
+    "fields": {
+      "title": "database optimization",
+      "author": "Heidi",
+      "category": "databases",
+      "content": "Optimizing databases can significantly improve the performance of your applications.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "rate": 2,
+      "created_at": "2025-08-06T09:40:00Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 9,
+    "fields": {
+      "title": "cloud computing overview",
+      "author": null,
+      "category": "cloud",
+      "content": "Cloud computing provides on-demand delivery of computing services over the internet. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "rate": 5,
+      "created_at": "2025-07-31T17:25:00Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 10,
+    "fields": {
+      "title": "testing in django",
+      "author": "Ivan",
+      "category": "testing",
+      "content": "Testing in Django is easy with the built-in test framework based on Python's unittest. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "rate": 4,
+      "created_at": "2025-08-03T13:05:00Z"
+    }
+  }
+]

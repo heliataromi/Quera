@@ -1,0 +1,67 @@
+body {
+    font-family: 'Vazir';
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+a {
+    padding: 10px 20px;
+    border: 2px solid #6dbbfc;
+    border-radius: 8px;
+    color: #6dbbfc;
+    background-color: rgba(38, 166, 154, 0.05);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #6abcff;
+    color: #121212;
+    box-shadow: 0 2px 8px rgba(38, 166, 154, 0.3);
+}
+
+
+h1 {
+    font-size: 3rem;
+    color: #90caf9;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    text-align: center;
+    color: #b0bec5;
+    line-height: 1.6;
+}
+
+footer {
+    flex-shrink: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 0.9rem;
+    color: #888;
+    background-color: #222;
+    min-height: 50px;
+    box-sizing: border-box;
+}

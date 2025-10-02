@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}لیست کتاب‌ها{% endblock %}
+
+{% block content %}
+    <h2>لیست کتاب‌ها</h2>
+    <div class="filters">
+        <div class="filter-set">
+            مرتب‌سازی بر اساس:
+            <a href="{% querystring sort='title' %}"
+            class="{% if sort == 'title' %}active{% endif %}">عنوان صعودی</a> |
+            <a href="{% querystring sort='-title' %}"
+            class="{% if sort == '-title' %}active{% endif %}">عنوان نزولی</a> |
+            <a href="{% querystring sort='price' %}"
+            class="{% if sort == 'price' %}active{% endif %}">قیمت صعودی</a> |
+            <a href="{% querystring sort='-price' %}"
+            class="{% if sort == '-price' %}active{% endif %}">قیمت نزولی</a> |
+            <a href="{% querystring sort=none %}"
+            class="{% if not sort %}active{% endif %}">پیش‌فرض</a>
+        </div>
+
+        <div class="filter-set">
+            فیلتر بر اساس سال انتشار:
+            <a href="{% querystring year=2019 %}"
+            class="{% if year == '2019' %}active{% endif %}">۲۰۱۹</a> |
+            <a href="{% querystring year=2020 %}"
+            class="{% if year == '2020' %}active{% endif %}">۲۰۲۰</a> |
+            <a href="{% querystring year=2021 %}"
+            class="{% if year == '2021' %}active{% endif %}">۲۰۲۱</a> |
+            <a href="{% querystring year=2022 %}"
+            class="{% if year == '2022' %}active{% endif %}">۲۰۲۲</a> |
+            <a href="{% querystring year=2023 %}"
+            class="{% if year == '2023' %}active{% endif %}">۲۰۲۳</a> |
+            <a href="{% querystring year=none %}"
+            class="{% if not year %}active{% endif %}">همه سال‌ها</a>
+        </div>
+    </div>
+
+    <div class="book-list">
+    {% for book in books %}
+        {% include "books/partials/book_item.html" %}
+    {% empty %}
+        <p>هیچ کتابی یافت نشد.</p>
+    {% endfor %}
+    </div>
+{% endblock %}

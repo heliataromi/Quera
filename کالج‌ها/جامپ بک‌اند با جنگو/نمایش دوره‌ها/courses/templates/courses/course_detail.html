@@ -1,0 +1,25 @@
+{% load humanize %}
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8" />
+    <title>جزئیات دوره - {{ course.title }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container my-5">
+    <a href="{% url 'course_list' %}" class="btn btn-secondary mb-4">&laquo; بازگشت به لیست دوره‌ها</a>
+    <div class="card shadow-sm" dir="rtl">
+        {% if course.poster_url %}
+            <img src="{{ course.poster_url }}" width="100px" class="card-img-top" alt="{{ course.title }}">
+        {% endif %}
+        <div class="card-body">
+            <h2 class="card-title">{{ course.title }}</h2>
+            <p class="fs-5 fw-bold text-success">{{ course.price|intcomma }} تومان</p>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

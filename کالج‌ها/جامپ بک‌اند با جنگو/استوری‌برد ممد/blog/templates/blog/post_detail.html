@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load humanize %}
+
+{% block title %}{{ post.title }} | StoryBoard{% endblock %}
+
+{% block content %}
+<div class="container">
+  <article class="page">
+    <header class="page-header">
+      <a class="back" href="{% url 'blog:post_list' %}">← بازگشت</a>
+      <h1>{{ post.title }}</h1>
+      <div class="meta big">
+        <span class="pill">{{ post.category|default:"متفرقه" }}</span>
+        <span class="rating" style="--rating: {{ post.rate|default:0 }};" title="{{ post.rate|default_if_none:'بدون امتیاز' }}"></span>
+        <span>•</span>
+        <span>نویسنده: {{ post.author|default:"نامشخص" }}</span>
+        <span>•</span>
+        <time datetime="{{ post.created_at|date:'c' }}">{{ post.created_at|date:"Y/m/d - H:i" }}</time>
+      </div>
+    </header>
+    <div class="content prose">
+      {{ post.content|linebreaks }}
+    </div>
+  </article>
+</div>
+{% endblock %}

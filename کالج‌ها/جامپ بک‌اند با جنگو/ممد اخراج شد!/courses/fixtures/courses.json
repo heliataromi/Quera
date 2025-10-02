@@ -1,0 +1,398 @@
+[
+    {
+        "model": "courses.Course",
+        "pk": 1,
+        "fields": {
+            "title": "برنامه‌نویسی پایتون مقدماتی",
+            "price": 1999000,
+            "poster_url": "https://quera.org/media/public/college/card_images/ad19ef19c9db451891454642202c94bd..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 2,
+        "fields": {
+            "title": "برنامه‌نویسی جاوااسکریپت مقدماتی",
+            "price": 1549000,
+            "poster_url": "https://quera.org/media/public/college/card_images/bd47f66771894dffb2f40666040817b7..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 3,
+        "fields": {
+            "title": "برنامه‌نویسی ++C",
+            "price": 1659000,
+            "poster_url": "https://quera.org/media/public/college/card_images/c7dfc5f00e704e64b2d16fcbf9ebd78b..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 4,
+        "fields": {
+            "title": "آموزش عملی پرامپت‌نویسی",
+            "price": 1449000,
+            "poster_url": "https://quera.org/media/public/college/card_images/5c3712aef37e4f409888556df3353c8f..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 5,
+        "fields": {
+            "title": "آموزش عملی HTML و CSS",
+            "price": 1389000,
+            "poster_url": "https://quera.org/media/public/college/card_images/5467715dcfae453ca652dca76f97c15f..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 6,
+        "fields": {
+            "title": "تحلیل داده با اکسل",
+            "price": 1699000,
+            "poster_url": "https://quera.org/media/public/college/card_images/c07929e83560444b9b22fc9343c13417..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 7,
+        "fields": {
+            "title": "برنامه‌نویسی جاوا مقدماتی",
+            "price": 1579000,
+            "poster_url": "https://quera.org/media/public/college/card_images/cb9adae731ec4e90af95c92c57b4a77c..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 8,
+        "fields": {
+            "title": "برنامه‌نویسی C",
+            "price": 1499000,
+            "poster_url": "https://quera.org/media/public/college/card_images/c9548d15d01643ca9777f9a1be96d4b8..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 9,
+        "fields": {
+            "title": "دروازه ورود به هوش مصنوعی",
+            "price": 0,
+            "poster_url": "https://quera.org/media/public/college/card_images/2ef933f670324a12a5fa72ea3a7c851a..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 10,
+        "fields": {
+            "title": "برنامه‌نویسی #C مقدماتی",
+            "price": 1399000,
+            "poster_url": "https://quera.org/media/public/college/card_images/46158d2e611b4358aeee9e42904eff49..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 11,
+        "fields": {
+            "title": "برنامه‌نویسی متلب",
+            "price": 1459000,
+            "poster_url": "https://quera.org/media/public/college/card_images/b8fce2df9ecf4d68974f12d0f681ef37..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 12,
+        "fields": {
+            "title": "مبانی برنامه‌نویسی و تفکر الگوریتمی",
+            "price": 1379000,
+            "poster_url": "https://quera.org/media/public/college/card_images/2924c137945f4df390cda8d0cb793ae3..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 13,
+        "fields": {
+            "title": "آموزش مهارت‌های مسیر استخدام",
+            "price": 999000,
+            "poster_url": "https://quera.org/media/public/college/card_images/0e1fc692651c446ea12d2355f3acea67..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 14,
+        "fields": {
+            "title": "دروازه ورود به یادگیری ماشین",
+            "price": 0,
+            "poster_url": "https://quera.org/media/public/college/card_images/aaff52a69fb440b398b98282fde7afdb..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 15,
+        "fields": {
+            "title": "آموزش کاربردی آمار و احتمال",
+            "price": 1489000,
+            "poster_url": "https://quera.org/media/public/college/card_images/4f5ecf5574c04aa0afc07b88673017b2..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 16,
+        "fields": {
+            "title": "آموزش فرانت‌اند (Front-End)",
+            "price": 2599000,
+            "poster_url": "https://quera.org/media/public/college/card_images/d3669c6a026346e1ab938409ae901ba5..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 17,
+        "fields": {
+            "title": "برنامه‌نویسی پایتون پیشرفته",
+            "price": 1889000,
+            "poster_url": "https://quera.org/media/public/college/card_images/68cc54c6272846e49ba8036299f1b4d7..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 18,
+        "fields": {
+            "title": "آموزش ساختمان داده‌ها",
+            "price": 1479000,
+            "poster_url": "https://quera.org/media/public/college/card_images/340f1616e2844be2a787dc6a739afc0c..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 19,
+        "fields": {
+            "title": "برنامه‌نویسی جاوااسکریپت پیشرفته",
+            "price": 1789000,
+            "poster_url": "https://quera.org/media/public/college/card_images/820d5ab0797a4909a17b54bba609a95a..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 20,
+        "fields": {
+            "title": "برنامه‌نویسی #C پیشرفته",
+            "price": 1859000,
+            "poster_url": "https://quera.org/media/public/college/card_images/3c0c703971d24dd4965a81b3eb68b9ac..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 21,
+        "fields": {
+            "title": "الگوریتم پیشرفته و ساختمان‌داده‌ها",
+            "price": 1999000,
+            "poster_url": "https://quera.org/media/public/college/card_images/6827128f64424969a8dde5cedad53ae7..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 22,
+        "fields": {
+            "title": "برنامه‌نویسی جاوا پیشرفته",
+            "price": 1599000,
+            "poster_url": "https://quera.org/media/public/college/card_images/af59fa646055449194d3909872759721..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 23,
+        "fields": {
+            "title": "آموزش عملی هک و امنیت",
+            "price": 2699000,
+            "poster_url": "https://quera.org/media/public/college/card_images/53e5fe2f50124041926eb458b4685474..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 24,
+        "fields": {
+            "title": "تحلیل داده با پایتون",
+            "price": 2299000,
+            "poster_url": "https://quera.org/media/public/college/card_images/07f8a2511dbc4df19444a1dd63921812..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 25,
+        "fields": {
+            "title": "ساخت اپلیکیشن‌های LLM",
+            "price": 1979000,
+            "poster_url": "https://quera.org/media/public/college/card_images/fed3920e94f74ff1a2434b05ce677dea..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 26,
+        "fields": {
+            "title": "آموزش NLP مقدماتی",
+            "price": 2499000,
+            "poster_url": "https://quera.org/media/public/college/card_images/5e1211763ff54008a76bf2687a67b287..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 27,
+        "fields": {
+            "title": "آموزش عملی پردازش تصویر",
+            "price": 2589000,
+            "poster_url": "https://quera.org/media/public/college/card_images/fc1e933fcc234de29aeefab6d8a4982b..png"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 28,
+        "fields": {
+            "title": "آموزش برنامه‌نویسی وب با PHP",
+            "price": 1689000,
+            "poster_url": "https://quera.org/media/public/college/card_images/cce7e945578e40dcb74a90a90651c048..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 29,
+        "fields": {
+            "title": "طراحی و ساخت بات تلگرام با پایتون",
+            "price": 1489000,
+            "poster_url": "https://quera.org/media/public/college/card_images/16ab13037d8442a6a2cdaf5c2636bd3b..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 30,
+        "fields": {
+            "title": "آموزش عملی دیتابیس",
+            "price": 1899000,
+            "poster_url": "https://quera.org/media/public/college/card_images/a5695879ed6542b0a143eb4563522e2f..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 31,
+        "fields": {
+            "title": "آموزش عملی Power BI",
+            "price": 2999000,
+            "poster_url": "https://quera.org/media/public/college/card_images/ba794c74519d43c1a6acf998f58201dc..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 32,
+        "fields": {
+            "title": "آموزش کاربردی لینوکس",
+            "price": 1989000,
+            "poster_url": "https://quera.org/media/public/college/card_images/ef08aeb597304f3081048f6d34a6055e..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 33,
+        "fields": {
+            "title": "آموزش عملی داکر",
+            "price": 2699000,
+            "poster_url": "https://quera.org/media/public/college/card_images/c0601f27e7c349b4a2ed6c1ec34e22a5..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 34,
+        "fields": {
+            "title": "آموزش عملی کار با گیت",
+            "price": 1469000,
+            "poster_url": "https://quera.org/media/public/college/card_images/00120f4c5f66485a88036b5af080a9e4..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 35,
+        "fields": {
+            "title": "آموزش دیزاین پترن‌ها در پایتون",
+            "price": 1589000,
+            "poster_url": "https://quera.org/media/public/college/card_images/3a24265ba5c54cf3855a0ff5f6fa3f60..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 36,
+        "fields": {
+            "title": "آموزش عملی NoSQL",
+            "price": 1799000,
+            "poster_url": "https://quera.org/media/public/college/card_images/406cf67a12ec4e40af02fca48fd2fc7a..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 37,
+        "fields": {
+            "title": "آموزش کاربردی تایپ‌اسکریپت",
+            "price": 1669000,
+            "poster_url": "https://quera.org/media/public/college/card_images/922e821125404bd8b93348cef4d650c5..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 38,
+        "fields": {
+            "title": "آموزش پایتون به عنوان زبان دوم",
+            "price": 1299000,
+            "poster_url": "https://quera.org/media/public/college/card_images/17c2f5b634c24b6d8ff826ae2d79ac96..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 39,
+        "fields": {
+            "title": "جامپ‌ بک‌اند با گولنگ",
+            "price": 4499000,
+            "poster_url": "https://quera.org/media/public/college/card_images/9e7a8d8e846542eaa65e8a3d2d9381ad..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 40,
+        "fields": {
+            "title": "جامپ یادگیری عمیق",
+            "price": 4949000,
+            "poster_url": "https://quera.org/media/public/college/card_images/6b6cafcfd03c4ca89c2d6fba4bf9163a..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 41,
+        "fields": {
+            "title": "جامپ بک‌اند با جنگو",
+            "price": 4999000,
+            "poster_url": "https://quera.org/media/public/college/card_images/0c65b776ceda4928a7db3a9f0eec67a1..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 42,
+        "fields": {
+            "title": "جامپ یادگیری ماشین",
+            "price": 4889000,
+            "poster_url": "https://quera.org/media/public/college/card_images/4c212d73117d49b98f2f7434a8db988b..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 43,
+        "fields": {
+            "title": "جامپ فرانت‌اند با ری‌اکت",
+            "price": 4899000,
+            "poster_url": "https://quera.org/media/public/college/card_images/4dd35ec3b0284f318e31c69eb40f68f7..webp"
+        }
+    },
+    {
+        "model": "courses.Course",
+        "pk": 44,
+        "fields": {
+            "title": "جامپ بک‌اند با لاراول",
+            "price": 3999000,
+            "poster_url": "https://quera.org/media/public/college/card_images/48bb41d593ea419784a88f3be3dd00f8..webp"
+        }
+    }
+]

@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% load static %}
+{% load humanize %}
+
+{% block title %}StoryBoard | لیست پست‌ها{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-title">
+        <h1>📚 StoryBoard</h1>
+        <p>لیست پست‌ها + فرم ساخت سریع پست جدید</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container layout">
+  <div class="posts-col">
+    <div class="grid">
+      {% for post in posts %}
+        <article class="card">
+          <div class="card-top">
+            <span class="pill">{{ post.category|default:"متفرقه" }}</span>
+            <span class="rating" style="--rating: {{ post.rate|default:0 }};" title="{{ post.rate|default:'بدون امتیاز' }}"></span>
+          </div>
+          <h2 class="card-title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+          <p class="card-excerpt">{{ post.content|truncatechars:100 }}</p>
+          <div class="meta">
+            <span>نویسنده: {{ post.author|default:"نامشخص" }}</span>
+            <span>•</span>
+            <time datetime="{{ post.created_at|date:'c' }}">{{ post.created_at|date:"Y/m/d - H:i" }}</time>
+
+          </div>
+          <div class="card-actions">
+            <a class="link" href="{{ post.get_absolute_url }}">مشاهده جزئیات →</a>
+          </div>
+        </article>
+      {% empty %}
+        <div class="empty">
+          <h3>هنوز پستی ثبت نشده!</h3>
+          <p>اولین نفری باشید که اینجا می‌نویسد 😊</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <aside class="form-col" id="create-form">
+    <div class="card form-card">
+      <h3>✍️ پست جدید</h3>
+      <form method="post" novalidate>
+        {% csrf_token %}
+        {% if form.non_field_errors %}
+        <div class="alert alert-error">
+          {{ form.non_field_errors }}
+        </div>
+        {% endif %}
+
+        <div class="form-group">
+          <label for="{{ form.title.id_for_label }}">عنوان</label>
+          {{ form.title }}
+          {% for e in form.title.errors %}<small class="error">{{ e }}</small>{% endfor %}
+        </div>
+
+        <div class="form-group">
+          <label for="{{ form.author.id_for_label }}">نویسنده (اختیاری)</label>
+          {{ form.author }}
+          {% for e in form.author.errors %}<small class="error">{{ e }}</small>{% endfor %}
+        </div>
+
+        <div class="form-group">
+          <label for="{{ form.category.id_for_label }}">دسته‌بندی</label>
+          {{ form.category }}
+          {% for e in form.category.errors %}<small class="error">{{ e }}</small>{% endfor %}
+        </div>
+
+        <div class="form-group">
+          <label for="{{ form.content.id_for_label }}">متن کامل</label>
+          {{ form.content }}
+          {% for e in form.content.errors %}<small class="error">{{ e }}</small>{% endfor %}
+        </div>
+
+        <button type="submit" class="btn btn-primary">ثبت پست</button>
+      </form>
+    </div>
+  </aside>
+</div>
+{% endblock %}

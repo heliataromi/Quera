@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Courses List{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="mb-0">Available Courses</h2>
+    <a href="{% url 'create_course' %}" class="btn btn-primary">
+        <i class="bi bi-plus-circle"></i> Create New Course
+    </a>
+</div>
+
+{% if courses %}
+    <div class="list-group shadow-sm">
+        {% for course in courses %}
+        <div class="list-group-item d-flex justify-content-between align-items-center">
+            <div>
+                <h5 class="mb-1">{{ course.name }}</h5>
+                <small class="text-muted">
+                    Coach: <strong>{{ course.coach }}</strong> | 
+                    Capacity: {{ course.capacity }}
+                </small>
+            </div>
+            <div class="btn-group">
+                <a href="{% url 'course_enrollments' course.id %}" class="btn btn-outline-secondary btn-sm">
+                    Enrollments
+                </a>
+                <a href="{% url 'enroll' course.id %}" class="btn btn-success btn-sm">
+                    Enroll
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% else %}
+    <div class="alert alert-warning">No courses available at the moment.</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,1802 @@
+[
+    {
+        "model": "events.event",
+        "pk": 1,
+        "fields": {
+            "title": "جلسه معارفه",
+            "description": "آشنایی با تیم و پروژه‌ها",
+            "date": "2025-01-10"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 2,
+        "fields": {
+            "title": "کارگاه Django",
+            "description": "",
+            "date": "2025-02-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 3,
+        "fields": {
+            "title": "همایش فناوری",
+            "description": "ارائه دستاوردهای جدید",
+            "date": "2025-03-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 4,
+        "fields": {
+            "title": "جلسه بررسی کد",
+            "description": "",
+            "date": "2025-04-12"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 5,
+        "fields": {
+            "title": "کارگاه امنیت",
+            "description": "آشنایی با امنیت وب",
+            "date": "2025-05-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 6,
+        "fields": {
+            "title": "اردوی تیمی",
+            "description": "",
+            "date": "2025-06-18"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 7,
+        "fields": {
+            "title": "جلسه استراتژی",
+            "description": "تعیین اهداف نیمه دوم سال",
+            "date": "2025-07-08"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 8,
+        "fields": {
+            "title": "نمایشگاه فناوری",
+            "description": "",
+            "date": "2025-08-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 9,
+        "fields": {
+            "title": "وبینار توسعه وب",
+            "description": "آموزش تکنولوژی‌های جدید",
+            "date": "2025-09-14"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 10,
+        "fields": {
+            "title": "اختتامیه سال",
+            "description": "جمع‌بندی فعالیت‌ها",
+            "date": "2025-12-28"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 11,
+        "fields": {
+            "title": "جلسه برنامه‌ریزی",
+            "description": "بررسی اهداف سه‌ماهه",
+            "date": "2025-01-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 12,
+        "fields": {
+            "title": "کارگاه آموزشی",
+            "description": "",
+            "date": "2025-02-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 13,
+        "fields": {
+            "title": "همایش بین‌المللی",
+            "description": "ارائه مقالات علمی",
+            "date": "2025-05-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 14,
+        "fields": {
+            "title": "نماشگاه بین‌المللی",
+            "description": "ارائه دستاورد های علمی",
+            "date": "2025-11-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 15,
+        "fields": {
+            "title": "هوش مصنوعی",
+            "description": "ارائه‌ی مدل‌های زبانی توسعه‌یافته",
+            "date": "2025-05-09"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 16,
+        "fields": {
+            "title": "مسابقه‌ی دانشگاهی",
+            "description": "",
+            "date": "2025-12-01"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 17,
+        "fields": {
+            "title": "دورهمی حضوری",
+            "description": "",
+            "date": "2025-05-11"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 18,
+        "fields": {
+            "title": "کارگاه عملی گیت و لینوکس",
+            "description": "یه کارگاه خیلی خفن که توی اون با گیت و لینوکس آشنا شدیم",
+            "date": "2025-01-22"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 19,
+        "fields": {
+            "title": "دورهمی آنلاین",
+            "description": "کلی بازی کردیم و بیشتر با همدیگه آشنا شدیم",
+            "date": "2025-12-21"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 20,
+        "fields": {
+            "title": "پیاده‌روی در پل‌ طبیعت",
+            "description": "یه فعالیت مفید بعد از کلی کار!",
+            "date": "2025-09-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 21,
+        "fields": {
+            "title": "جلسه معارفه",
+            "description": "آشنایی با تیم و پروژه‌ها",
+            "date": "2026-01-10"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 22,
+        "fields": {
+            "title": "کارگاه Django",
+            "description": "",
+            "date": "2026-02-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 23,
+        "fields": {
+            "title": "همایش فناوری",
+            "description": "ارائه دستاوردهای جدید",
+            "date": "2026-03-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 24,
+        "fields": {
+            "title": "جلسه بررسی کد",
+            "description": "",
+            "date": "2026-04-12"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 25,
+        "fields": {
+            "title": "کارگاه امنیت",
+            "description": "آشنایی با امنیت وب",
+            "date": "2026-05-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 26,
+        "fields": {
+            "title": "اردوی تیمی",
+            "description": "",
+            "date": "2026-06-18"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 27,
+        "fields": {
+            "title": "جلسه استراتژی",
+            "description": "تعیین اهداف نیمه دوم سال",
+            "date": "2026-07-08"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 28,
+        "fields": {
+            "title": "نمایشگاه فناوری",
+            "description": "",
+            "date": "2026-08-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 29,
+        "fields": {
+            "title": "وبینار توسعه وب",
+            "description": "آموزش تکنولوژی‌های جدید",
+            "date": "2026-09-14"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 30,
+        "fields": {
+            "title": "اختتامیه سال",
+            "description": "جمع‌بندی فعالیت‌ها",
+            "date": "2026-12-28"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 31,
+        "fields": {
+            "title": "جلسه برنامه‌ریزی",
+            "description": "بررسی اهداف سه‌ماهه",
+            "date": "2026-01-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 32,
+        "fields": {
+            "title": "کارگاه آموزشی",
+            "description": "",
+            "date": "2026-02-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 33,
+        "fields": {
+            "title": "همایش بین‌المللی",
+            "description": "ارائه مقالات علمی",
+            "date": "2026-05-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 34,
+        "fields": {
+            "title": "نماشگاه بین‌المللی",
+            "description": "ارائه دستاورد های علمی",
+            "date": "2026-11-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 35,
+        "fields": {
+            "title": "هوش مصنوعی",
+            "description": "ارائه‌ی مدل‌های زبانی توسعه‌یافته",
+            "date": "2026-05-09"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 36,
+        "fields": {
+            "title": "مسابقه‌ی دانشگاهی",
+            "description": "",
+            "date": "2026-12-01"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 37,
+        "fields": {
+            "title": "دورهمی حضوری",
+            "description": "",
+            "date": "2026-05-11"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 38,
+        "fields": {
+            "title": "کارگاه عملی گیت و لینوکس",
+            "description": "یه کارگاه خیلی خفن که توی اون با گیت و لینوکس آشنا شدیم",
+            "date": "2026-01-22"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 39,
+        "fields": {
+            "title": "دورهمی آنلاین",
+            "description": "کلی بازی کردیم و بیشتر با همدیگه آشنا شدیم",
+            "date": "2026-12-21"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 40,
+        "fields": {
+            "title": "پیاده‌روی در پل‌ طبیعت",
+            "description": "یه فعالیت مفید بعد از کلی کار!",
+            "date": "2026-09-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 41,
+        "fields": {
+            "title": "جلسه معارفه",
+            "description": "آشنایی با تیم و پروژه‌ها",
+            "date": "2027-01-10"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 42,
+        "fields": {
+            "title": "کارگاه Django",
+            "description": "",
+            "date": "2027-02-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 43,
+        "fields": {
+            "title": "همایش فناوری",
+            "description": "ارائه دستاوردهای جدید",
+            "date": "2027-03-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 44,
+        "fields": {
+            "title": "جلسه بررسی کد",
+            "description": "",
+            "date": "2027-04-12"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 45,
+        "fields": {
+            "title": "کارگاه امنیت",
+            "description": "آشنایی با امنیت وب",
+            "date": "2027-05-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 46,
+        "fields": {
+            "title": "اردوی تیمی",
+            "description": "",
+            "date": "2027-06-18"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 47,
+        "fields": {
+            "title": "جلسه استراتژی",
+            "description": "تعیین اهداف نیمه دوم سال",
+            "date": "2027-07-08"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 48,
+        "fields": {
+            "title": "نمایشگاه فناوری",
+            "description": "",
+            "date": "2027-08-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 49,
+        "fields": {
+            "title": "وبینار توسعه وب",
+            "description": "آموزش تکنولوژی‌های جدید",
+            "date": "2027-09-14"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 50,
+        "fields": {
+            "title": "اختتامیه سال",
+            "description": "جمع‌بندی فعالیت‌ها",
+            "date": "2027-12-28"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 51,
+        "fields": {
+            "title": "جلسه برنامه‌ریزی",
+            "description": "بررسی اهداف سه‌ماهه",
+            "date": "2027-01-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 52,
+        "fields": {
+            "title": "کارگاه آموزشی",
+            "description": "",
+            "date": "2027-02-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 53,
+        "fields": {
+            "title": "همایش بین‌المللی",
+            "description": "ارائه مقالات علمی",
+            "date": "2027-05-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 54,
+        "fields": {
+            "title": "نماشگاه بین‌المللی",
+            "description": "ارائه دستاورد های علمی",
+            "date": "2027-11-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 55,
+        "fields": {
+            "title": "هوش مصنوعی",
+            "description": "ارائه‌ی مدل‌های زبانی توسعه‌یافته",
+            "date": "2027-05-09"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 56,
+        "fields": {
+            "title": "مسابقه‌ی دانشگاهی",
+            "description": "",
+            "date": "2027-12-01"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 57,
+        "fields": {
+            "title": "دورهمی حضوری",
+            "description": "",
+            "date": "2027-05-11"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 58,
+        "fields": {
+            "title": "کارگاه عملی گیت و لینوکس",
+            "description": "یه کارگاه خیلی خفن که توی اون با گیت و لینوکس آشنا شدیم",
+            "date": "2027-01-22"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 59,
+        "fields": {
+            "title": "دورهمی آنلاین",
+            "description": "کلی بازی کردیم و بیشتر با همدیگه آشنا شدیم",
+            "date": "2027-12-21"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 60,
+        "fields": {
+            "title": "پیاده‌روی در پل‌ طبیعت",
+            "description": "یه فعالیت مفید بعد از کلی کار!",
+            "date": "2027-09-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 61,
+        "fields": {
+            "title": "جلسه معارفه",
+            "description": "آشنایی با تیم و پروژه‌ها",
+            "date": "2028-01-10"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 62,
+        "fields": {
+            "title": "کارگاه Django",
+            "description": "",
+            "date": "2028-02-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 63,
+        "fields": {
+            "title": "همایش فناوری",
+            "description": "ارائه دستاوردهای جدید",
+            "date": "2028-03-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 64,
+        "fields": {
+            "title": "جلسه بررسی کد",
+            "description": "",
+            "date": "2028-04-12"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 65,
+        "fields": {
+            "title": "کارگاه امنیت",
+            "description": "آشنایی با امنیت وب",
+            "date": "2028-05-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 66,
+        "fields": {
+            "title": "اردوی تیمی",
+            "description": "",
+            "date": "2028-06-18"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 67,
+        "fields": {
+            "title": "جلسه استراتژی",
+            "description": "تعیین اهداف نیمه دوم سال",
+            "date": "2028-07-08"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 68,
+        "fields": {
+            "title": "نمایشگاه فناوری",
+            "description": "",
+            "date": "2028-08-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 69,
+        "fields": {
+            "title": "وبینار توسعه وب",
+            "description": "آموزش تکنولوژی‌های جدید",
+            "date": "2028-09-14"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 70,
+        "fields": {
+            "title": "اختتامیه سال",
+            "description": "جمع‌بندی فعالیت‌ها",
+            "date": "2028-12-28"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 71,
+        "fields": {
+            "title": "جلسه برنامه‌ریزی",
+            "description": "بررسی اهداف سه‌ماهه",
+            "date": "2028-01-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 72,
+        "fields": {
+            "title": "کارگاه آموزشی",
+            "description": "",
+            "date": "2028-02-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 73,
+        "fields": {
+            "title": "همایش بین‌المللی",
+            "description": "ارائه مقالات علمی",
+            "date": "2028-05-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 74,
+        "fields": {
+            "title": "نماشگاه بین‌المللی",
+            "description": "ارائه دستاورد های علمی",
+            "date": "2028-11-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 75,
+        "fields": {
+            "title": "هوش مصنوعی",
+            "description": "ارائه‌ی مدل‌های زبانی توسعه‌یافته",
+            "date": "2028-05-09"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 76,
+        "fields": {
+            "title": "مسابقه‌ی دانشگاهی",
+            "description": "",
+            "date": "2028-12-01"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 77,
+        "fields": {
+            "title": "دورهمی حضوری",
+            "description": "",
+            "date": "2028-05-11"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 78,
+        "fields": {
+            "title": "کارگاه عملی گیت و لینوکس",
+            "description": "یه کارگاه خیلی خفن که توی اون با گیت و لینوکس آشنا شدیم",
+            "date": "2028-01-22"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 79,
+        "fields": {
+            "title": "دورهمی آنلاین",
+            "description": "کلی بازی کردیم و بیشتر با همدیگه آشنا شدیم",
+            "date": "2028-12-21"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 80,
+        "fields": {
+            "title": "پیاده‌روی در پل‌ طبیعت",
+            "description": "یه فعالیت مفید بعد از کلی کار!",
+            "date": "2028-09-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 81,
+        "fields": {
+            "title": "جلسه معارفه",
+            "description": "آشنایی با تیم و پروژه‌ها",
+            "date": "2029-01-10"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 82,
+        "fields": {
+            "title": "کارگاه Django",
+            "description": "",
+            "date": "2029-02-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 83,
+        "fields": {
+            "title": "همایش فناوری",
+            "description": "ارائه دستاوردهای جدید",
+            "date": "2029-03-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 84,
+        "fields": {
+            "title": "جلسه بررسی کد",
+            "description": "",
+            "date": "2029-04-12"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 85,
+        "fields": {
+            "title": "کارگاه امنیت",
+            "description": "آشنایی با امنیت وب",
+            "date": "2029-05-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 86,
+        "fields": {
+            "title": "اردوی تیمی",
+            "description": "",
+            "date": "2029-06-18"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 87,
+        "fields": {
+            "title": "جلسه استراتژی",
+            "description": "تعیین اهداف نیمه دوم سال",
+            "date": "2029-07-08"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 88,
+        "fields": {
+            "title": "نمایشگاه فناوری",
+            "description": "",
+            "date": "2029-08-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 89,
+        "fields": {
+            "title": "وبینار توسعه وب",
+            "description": "آموزش تکنولوژی‌های جدید",
+            "date": "2029-09-14"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 90,
+        "fields": {
+            "title": "اختتامیه سال",
+            "description": "جمع‌بندی فعالیت‌ها",
+            "date": "2029-12-28"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 91,
+        "fields": {
+            "title": "جلسه برنامه‌ریزی",
+            "description": "بررسی اهداف سه‌ماهه",
+            "date": "2029-01-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 92,
+        "fields": {
+            "title": "کارگاه آموزشی",
+            "description": "",
+            "date": "2029-02-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 93,
+        "fields": {
+            "title": "همایش بین‌المللی",
+            "description": "ارائه مقالات علمی",
+            "date": "2029-05-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 94,
+        "fields": {
+            "title": "نماشگاه بین‌المللی",
+            "description": "ارائه دستاورد های علمی",
+            "date": "2029-11-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 95,
+        "fields": {
+            "title": "هوش مصنوعی",
+            "description": "ارائه‌ی مدل‌های زبانی توسعه‌یافته",
+            "date": "2029-05-09"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 96,
+        "fields": {
+            "title": "مسابقه‌ی دانشگاهی",
+            "description": "",
+            "date": "2029-12-01"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 97,
+        "fields": {
+            "title": "دورهمی حضوری",
+            "description": "",
+            "date": "2029-05-11"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 98,
+        "fields": {
+            "title": "کارگاه عملی گیت و لینوکس",
+            "description": "یه کارگاه خیلی خفن که توی اون با گیت و لینوکس آشنا شدیم",
+            "date": "2029-01-22"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 99,
+        "fields": {
+            "title": "دورهمی آنلاین",
+            "description": "کلی بازی کردیم و بیشتر با همدیگه آشنا شدیم",
+            "date": "2029-12-21"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 100,
+        "fields": {
+            "title": "پیاده‌روی در پل‌ طبیعت",
+            "description": "یه فعالیت مفید بعد از کلی کار!",
+            "date": "2029-09-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 101,
+        "fields": {
+            "title": "جلسه معارفه",
+            "description": "آشنایی با تیم و پروژه‌ها",
+            "date": "2030-01-10"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 102,
+        "fields": {
+            "title": "کارگاه Django",
+            "description": "",
+            "date": "2030-02-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 103,
+        "fields": {
+            "title": "همایش فناوری",
+            "description": "ارائه دستاوردهای جدید",
+            "date": "2030-03-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 104,
+        "fields": {
+            "title": "جلسه بررسی کد",
+            "description": "",
+            "date": "2030-04-12"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 105,
+        "fields": {
+            "title": "کارگاه امنیت",
+            "description": "آشنایی با امنیت وب",
+            "date": "2030-05-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 106,
+        "fields": {
+            "title": "اردوی تیمی",
+            "description": "",
+            "date": "2030-06-18"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 107,
+        "fields": {
+            "title": "جلسه استراتژی",
+            "description": "تعیین اهداف نیمه دوم سال",
+            "date": "2030-07-08"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 108,
+        "fields": {
+            "title": "نمایشگاه فناوری",
+            "description": "",
+            "date": "2030-08-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 109,
+        "fields": {
+            "title": "وبینار توسعه وب",
+            "description": "آموزش تکنولوژی‌های جدید",
+            "date": "2030-09-14"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 110,
+        "fields": {
+            "title": "اختتامیه سال",
+            "description": "جمع‌بندی فعالیت‌ها",
+            "date": "2030-12-28"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 111,
+        "fields": {
+            "title": "جلسه برنامه‌ریزی",
+            "description": "بررسی اهداف سه‌ماهه",
+            "date": "2030-01-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 112,
+        "fields": {
+            "title": "کارگاه آموزشی",
+            "description": "",
+            "date": "2030-02-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 113,
+        "fields": {
+            "title": "همایش بین‌المللی",
+            "description": "ارائه مقالات علمی",
+            "date": "2030-05-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 114,
+        "fields": {
+            "title": "نماشگاه بین‌المللی",
+            "description": "ارائه دستاورد های علمی",
+            "date": "2030-11-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 115,
+        "fields": {
+            "title": "هوش مصنوعی",
+            "description": "ارائه‌ی مدل‌های زبانی توسعه‌یافته",
+            "date": "2030-05-09"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 116,
+        "fields": {
+            "title": "مسابقه‌ی دانشگاهی",
+            "description": "",
+            "date": "2030-12-01"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 117,
+        "fields": {
+            "title": "دورهمی حضوری",
+            "description": "",
+            "date": "2030-05-11"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 118,
+        "fields": {
+            "title": "کارگاه عملی گیت و لینوکس",
+            "description": "یه کارگاه خیلی خفن که توی اون با گیت و لینوکس آشنا شدیم",
+            "date": "2030-01-22"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 119,
+        "fields": {
+            "title": "دورهمی آنلاین",
+            "description": "کلی بازی کردیم و بیشتر با همدیگه آشنا شدیم",
+            "date": "2030-12-21"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 120,
+        "fields": {
+            "title": "پیاده‌روی در پل‌ طبیعت",
+            "description": "یه فعالیت مفید بعد از کلی کار!",
+            "date": "2030-09-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 121,
+        "fields": {
+            "title": "جلسه معارفه",
+            "description": "آشنایی با تیم و پروژه‌ها",
+            "date": "2031-01-10"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 122,
+        "fields": {
+            "title": "کارگاه Django",
+            "description": "",
+            "date": "2031-02-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 123,
+        "fields": {
+            "title": "همایش فناوری",
+            "description": "ارائه دستاوردهای جدید",
+            "date": "2031-03-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 124,
+        "fields": {
+            "title": "جلسه بررسی کد",
+            "description": "",
+            "date": "2031-04-12"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 125,
+        "fields": {
+            "title": "کارگاه امنیت",
+            "description": "آشنایی با امنیت وب",
+            "date": "2031-05-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 126,
+        "fields": {
+            "title": "اردوی تیمی",
+            "description": "",
+            "date": "2031-06-18"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 127,
+        "fields": {
+            "title": "جلسه استراتژی",
+            "description": "تعیین اهداف نیمه دوم سال",
+            "date": "2031-07-08"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 128,
+        "fields": {
+            "title": "نمایشگاه فناوری",
+            "description": "",
+            "date": "2031-08-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 129,
+        "fields": {
+            "title": "وبینار توسعه وب",
+            "description": "آموزش تکنولوژی‌های جدید",
+            "date": "2031-09-14"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 130,
+        "fields": {
+            "title": "اختتامیه سال",
+            "description": "جمع‌بندی فعالیت‌ها",
+            "date": "2031-12-28"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 131,
+        "fields": {
+            "title": "جلسه برنامه‌ریزی",
+            "description": "بررسی اهداف سه‌ماهه",
+            "date": "2031-01-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 132,
+        "fields": {
+            "title": "کارگاه آموزشی",
+            "description": "",
+            "date": "2031-02-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 133,
+        "fields": {
+            "title": "همایش بین‌المللی",
+            "description": "ارائه مقالات علمی",
+            "date": "2031-05-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 134,
+        "fields": {
+            "title": "نماشگاه بین‌المللی",
+            "description": "ارائه دستاورد های علمی",
+            "date": "2031-11-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 135,
+        "fields": {
+            "title": "هوش مصنوعی",
+            "description": "ارائه‌ی مدل‌های زبانی توسعه‌یافته",
+            "date": "2031-05-09"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 136,
+        "fields": {
+            "title": "مسابقه‌ی دانشگاهی",
+            "description": "",
+            "date": "2031-12-01"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 137,
+        "fields": {
+            "title": "دورهمی حضوری",
+            "description": "",
+            "date": "2031-05-11"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 138,
+        "fields": {
+            "title": "کارگاه عملی گیت و لینوکس",
+            "description": "یه کارگاه خیلی خفن که توی اون با گیت و لینوکس آشنا شدیم",
+            "date": "2031-01-22"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 139,
+        "fields": {
+            "title": "دورهمی آنلاین",
+            "description": "کلی بازی کردیم و بیشتر با همدیگه آشنا شدیم",
+            "date": "2031-12-21"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 140,
+        "fields": {
+            "title": "پیاده‌روی در پل‌ طبیعت",
+            "description": "یه فعالیت مفید بعد از کلی کار!",
+            "date": "2031-09-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 141,
+        "fields": {
+            "title": "جلسه معارفه",
+            "description": "آشنایی با تیم و پروژه‌ها",
+            "date": "2032-01-10"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 142,
+        "fields": {
+            "title": "کارگاه Django",
+            "description": "",
+            "date": "2032-02-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 143,
+        "fields": {
+            "title": "همایش فناوری",
+            "description": "ارائه دستاوردهای جدید",
+            "date": "2032-03-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 144,
+        "fields": {
+            "title": "جلسه بررسی کد",
+            "description": "",
+            "date": "2032-04-12"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 145,
+        "fields": {
+            "title": "کارگاه امنیت",
+            "description": "آشنایی با امنیت وب",
+            "date": "2032-05-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 146,
+        "fields": {
+            "title": "اردوی تیمی",
+            "description": "",
+            "date": "2032-06-18"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 147,
+        "fields": {
+            "title": "جلسه استراتژی",
+            "description": "تعیین اهداف نیمه دوم سال",
+            "date": "2032-07-08"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 148,
+        "fields": {
+            "title": "نمایشگاه فناوری",
+            "description": "",
+            "date": "2032-08-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 149,
+        "fields": {
+            "title": "وبینار توسعه وب",
+            "description": "آموزش تکنولوژی‌های جدید",
+            "date": "2032-09-14"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 150,
+        "fields": {
+            "title": "اختتامیه سال",
+            "description": "جمع‌بندی فعالیت‌ها",
+            "date": "2032-12-28"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 151,
+        "fields": {
+            "title": "جلسه برنامه‌ریزی",
+            "description": "بررسی اهداف سه‌ماهه",
+            "date": "2032-01-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 152,
+        "fields": {
+            "title": "کارگاه آموزشی",
+            "description": "",
+            "date": "2032-02-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 153,
+        "fields": {
+            "title": "همایش بین‌المللی",
+            "description": "ارائه مقالات علمی",
+            "date": "2032-05-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 154,
+        "fields": {
+            "title": "نماشگاه بین‌المللی",
+            "description": "ارائه دستاورد های علمی",
+            "date": "2032-11-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 155,
+        "fields": {
+            "title": "هوش مصنوعی",
+            "description": "ارائه‌ی مدل‌های زبانی توسعه‌یافته",
+            "date": "2032-05-09"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 156,
+        "fields": {
+            "title": "مسابقه‌ی دانشگاهی",
+            "description": "",
+            "date": "2032-12-01"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 157,
+        "fields": {
+            "title": "دورهمی حضوری",
+            "description": "",
+            "date": "2032-05-11"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 158,
+        "fields": {
+            "title": "کارگاه عملی گیت و لینوکس",
+            "description": "یه کارگاه خیلی خفن که توی اون با گیت و لینوکس آشنا شدیم",
+            "date": "2032-01-22"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 159,
+        "fields": {
+            "title": "دورهمی آنلاین",
+            "description": "کلی بازی کردیم و بیشتر با همدیگه آشنا شدیم",
+            "date": "2032-12-21"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 160,
+        "fields": {
+            "title": "پیاده‌روی در پل‌ طبیعت",
+            "description": "یه فعالیت مفید بعد از کلی کار!",
+            "date": "2032-09-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 161,
+        "fields": {
+            "title": "جلسه معارفه",
+            "description": "آشنایی با تیم و پروژه‌ها",
+            "date": "2033-01-10"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 162,
+        "fields": {
+            "title": "کارگاه Django",
+            "description": "",
+            "date": "2033-02-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 163,
+        "fields": {
+            "title": "همایش فناوری",
+            "description": "ارائه دستاوردهای جدید",
+            "date": "2033-03-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 164,
+        "fields": {
+            "title": "جلسه بررسی کد",
+            "description": "",
+            "date": "2033-04-12"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 165,
+        "fields": {
+            "title": "کارگاه امنیت",
+            "description": "آشنایی با امنیت وب",
+            "date": "2033-05-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 166,
+        "fields": {
+            "title": "اردوی تیمی",
+            "description": "",
+            "date": "2033-06-18"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 167,
+        "fields": {
+            "title": "جلسه استراتژی",
+            "description": "تعیین اهداف نیمه دوم سال",
+            "date": "2033-07-08"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 168,
+        "fields": {
+            "title": "نمایشگاه فناوری",
+            "description": "",
+            "date": "2033-08-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 169,
+        "fields": {
+            "title": "وبینار توسعه وب",
+            "description": "آموزش تکنولوژی‌های جدید",
+            "date": "2033-09-14"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 170,
+        "fields": {
+            "title": "اختتامیه سال",
+            "description": "جمع‌بندی فعالیت‌ها",
+            "date": "2033-12-28"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 171,
+        "fields": {
+            "title": "جلسه برنامه‌ریزی",
+            "description": "بررسی اهداف سه‌ماهه",
+            "date": "2033-01-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 172,
+        "fields": {
+            "title": "کارگاه آموزشی",
+            "description": "",
+            "date": "2033-02-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 173,
+        "fields": {
+            "title": "همایش بین‌المللی",
+            "description": "ارائه مقالات علمی",
+            "date": "2033-05-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 174,
+        "fields": {
+            "title": "نماشگاه بین‌المللی",
+            "description": "ارائه دستاورد های علمی",
+            "date": "2033-11-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 175,
+        "fields": {
+            "title": "هوش مصنوعی",
+            "description": "ارائه‌ی مدل‌های زبانی توسعه‌یافته",
+            "date": "2033-05-09"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 176,
+        "fields": {
+            "title": "مسابقه‌ی دانشگاهی",
+            "description": "",
+            "date": "2033-12-01"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 177,
+        "fields": {
+            "title": "دورهمی حضوری",
+            "description": "",
+            "date": "2033-05-11"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 178,
+        "fields": {
+            "title": "کارگاه عملی گیت و لینوکس",
+            "description": "یه کارگاه خیلی خفن که توی اون با گیت و لینوکس آشنا شدیم",
+            "date": "2033-01-22"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 179,
+        "fields": {
+            "title": "دورهمی آنلاین",
+            "description": "کلی بازی کردیم و بیشتر با همدیگه آشنا شدیم",
+            "date": "2033-12-21"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 180,
+        "fields": {
+            "title": "پیاده‌روی در پل‌ طبیعت",
+            "description": "یه فعالیت مفید بعد از کلی کار!",
+            "date": "2033-09-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 181,
+        "fields": {
+            "title": "جلسه معارفه",
+            "description": "آشنایی با تیم و پروژه‌ها",
+            "date": "2034-01-10"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 182,
+        "fields": {
+            "title": "کارگاه Django",
+            "description": "",
+            "date": "2034-02-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 183,
+        "fields": {
+            "title": "همایش فناوری",
+            "description": "ارائه دستاوردهای جدید",
+            "date": "2034-03-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 184,
+        "fields": {
+            "title": "جلسه بررسی کد",
+            "description": "",
+            "date": "2034-04-12"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 185,
+        "fields": {
+            "title": "کارگاه امنیت",
+            "description": "آشنایی با امنیت وب",
+            "date": "2034-05-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 186,
+        "fields": {
+            "title": "اردوی تیمی",
+            "description": "",
+            "date": "2034-06-18"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 187,
+        "fields": {
+            "title": "جلسه استراتژی",
+            "description": "تعیین اهداف نیمه دوم سال",
+            "date": "2034-07-08"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 188,
+        "fields": {
+            "title": "نمایشگاه فناوری",
+            "description": "",
+            "date": "2034-08-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 189,
+        "fields": {
+            "title": "وبینار توسعه وب",
+            "description": "آموزش تکنولوژی‌های جدید",
+            "date": "2034-09-14"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 190,
+        "fields": {
+            "title": "اختتامیه سال",
+            "description": "جمع‌بندی فعالیت‌ها",
+            "date": "2034-12-28"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 191,
+        "fields": {
+            "title": "جلسه برنامه‌ریزی",
+            "description": "بررسی اهداف سه‌ماهه",
+            "date": "2034-01-15"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 192,
+        "fields": {
+            "title": "کارگاه آموزشی",
+            "description": "",
+            "date": "2034-02-20"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 193,
+        "fields": {
+            "title": "همایش بین‌المللی",
+            "description": "ارائه مقالات علمی",
+            "date": "2034-05-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 194,
+        "fields": {
+            "title": "نماشگاه بین‌المللی",
+            "description": "ارائه دستاورد های علمی",
+            "date": "2034-11-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 195,
+        "fields": {
+            "title": "هوش مصنوعی",
+            "description": "ارائه‌ی مدل‌های زبانی توسعه‌یافته",
+            "date": "2034-05-09"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 196,
+        "fields": {
+            "title": "مسابقه‌ی دانشگاهی",
+            "description": "",
+            "date": "2034-12-01"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 197,
+        "fields": {
+            "title": "دورهمی حضوری",
+            "description": "",
+            "date": "2034-05-11"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 198,
+        "fields": {
+            "title": "کارگاه عملی گیت و لینوکس",
+            "description": "یه کارگاه خیلی خفن که توی اون با گیت و لینوکس آشنا شدیم",
+            "date": "2034-01-22"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 199,
+        "fields": {
+            "title": "دورهمی آنلاین",
+            "description": "کلی بازی کردیم و بیشتر با همدیگه آشنا شدیم",
+            "date": "2034-12-21"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 200,
+        "fields": {
+            "title": "پیاده‌روی در پل‌ طبیعت",
+            "description": "یه فعالیت مفید بعد از کلی کار!",
+            "date": "2034-09-15"
+        }
+    }
+]

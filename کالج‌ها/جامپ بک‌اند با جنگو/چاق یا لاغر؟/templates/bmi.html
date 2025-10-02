@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if result %}
+    <div 
+        class="alert text-center py-4 mb-4 
+        {% if result.category == 'Healthy weight' %}alert-success{% elif result.category == 'Underweight' or result.category == 'Overweight' %}alert-warning{% else %}alert-danger{% endif %}" 
+        role="alert"
+    >
+        <h4 class="alert-heading">Your BMI: {{ result.bmi }}</h4>
+        <p class="mb-1">Category: <strong>{{ result.category }}</strong></p>
+        <p class="mb-0 text-muted"><i>Estimated Body Fat: {{ result.body_fat }}%</i></p>
+</div>
+{% endif %}
+
+<form method="post">
+    {% csrf_token %}
+
+    {% for field in form %}
+        <div class="mb-2">
+            {{ field.label_tag }}
+            {{ field }}
+        </div>
+    {% endfor %}
+
+    <button type="submit" class="btn btn-outline-dark btn-lg w-100 mt-3">Calculate</button>
+</form>
+{% endblock %}

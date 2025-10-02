@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load static %}
+{% load humanize %}
+
+{% block title %}StoryBoard | لیست پست‌ها{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-title">
+        <h1>📚 StoryBoard</h1>
+      </div>
+      <a class="btn btn-glow" href="{% url 'blog:post_create' %}">+ ایجاد پست جدید</a>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="posts-col">
+    <div class="grid">
+      {% for post in posts %}
+        <article class="card">
+          <div class="card-top">
+            <span class="pill">{{ post.category|default:"متفرقه" }}</span>
+            <span class="rating" style="--rating: {{ post.rate|default:0 }};" title="{{ post.rate|default:'بدون امتیاز' }}"></span>
+          </div>
+          <h2 class="card-title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+          <p class="card-excerpt">{{ post.content|truncatechars:100 }}</p>
+          <div class="meta">
+            <span>نویسنده: {{ post.author|default:"نامشخص" }}</span>
+            <span>•</span>
+            <time datetime="{{ post.created_at|date:'c' }}">{{ post.created_at|date:"Y/m/d - H:i" }}</time>
+
+          </div>
+          <div class="card-actions">
+            <a class="link" href="{{ post.get_absolute_url }}">مشاهده جزئیات →</a>
+          </div>
+        </article>
+      {% empty %}
+        <div class="empty">
+          <h3>هنوز پستی ثبت نشده!</h3>
+          <p>اولین نفری باشید که اینجا می‌نویسد 😊</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}

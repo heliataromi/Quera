@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}Blog Posts{% endblock %}
+
+{% block content %}
+    {% regroup posts|dictsort:"category" by category as grouped_posts %}
+
+    {% for group in grouped_posts %}
+        <h2 class="category-title">{{ group.grouper|title }}</h2>
+        <div class="post-grid">
+            {% for post in group.list %}
+                <article class="post-card">
+                <div class="post-header">
+                    <h2 class="post-title">{{ post.title|title }}</h2>
+                    <span class="post-category">{{ post.category|title }}</span>
+                </div>
+                <div class="post-meta">
+                    <span class="post-author">✍ {{ post.author|default:"Anonymous" }}</span>
+                    <span class="post-time-since">⏳ {{ post.created_at|timesince }} ago</span>
+                    <span class="post-rate">⭐ {{ post.rate|default_if_none:"No rating" }}</span>
+                    {% if post.rate is None %}
+                        <span class="post-is-recommended">⏳ Unknown</span>
+                    {% elif post.rate == 0 %}
+                        <span class="post-is-recommended">👎 Not Recommended</span>
+                    {% else %}
+                        <span class="post-is-recommended">👍 Recommended</span>
+                    {% endif %}
+                </div>
+                <p class="post-content">
+                    {{ post.content|truncatechars:150 }}
+                </p>
+                <div class="post-footer">
+                    <span class="word-count">📝 {{ post.content|wordcount }} words</span>
+                    <a href="{% url 'post_detail' post.id %}" class="read-more">Read More →</a>
+                </div>
+                </article>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endblock %}

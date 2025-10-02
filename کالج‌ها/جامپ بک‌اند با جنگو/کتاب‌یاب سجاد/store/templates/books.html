@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>فیلتر کتاب‌ها</title>
+    <style>
+        body {
+            font-family: Vazirmatn, sans-serif;
+            background-color: #f8f9fa;
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
+            color: #333;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #444;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: white;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .no-result {
+            text-align: center;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>📚 جستجوی کتاب‌ها</h1>
+
+    <form method="get">
+        <div class="form-group">
+            <label for="title">عنوان کتاب</label>
+            <input type="text" name="title" id="title" value="{{ query.title }}">
+        </div>
+
+        <div class="form-group">
+            <label for="author">نام نویسنده</label>
+            <input type="text" name="author" id="author" value="{{ query.author }}">
+        </div>
+
+        <div class="form-group">
+            <label for="min_price">حداقل قیمت</label>
+            <input type="number" name="min_price" id="min_price" value="{{ query.min_price }}">
+        </div>
+
+        <div class="form-group">
+            <label for="max_price">حداکثر قیمت</label>
+            <input type="number" name="max_price" id="max_price" value="{{ query.max_price }}">
+        </div>
+
+        <button type="submit">فیلتر کن</button>
+    </form>
+
+    <h2>📖 نتایج جستجو</h2>
+    {% if books %}
+        <ul>
+            {% for book in books %}
+                <li>
+                    <strong>{{ book.title }}</strong><br>
+                    نویسنده: {{ book.author }}<br>
+                    قیمت: {{ book.price }} تومان
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p class="no-result">📭 هیچ کتابی یافت نشد.</p>
+    {% endif %}
+
+</body>
+</html>

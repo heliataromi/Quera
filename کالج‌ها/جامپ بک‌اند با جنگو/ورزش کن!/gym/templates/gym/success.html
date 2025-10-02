@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+    <div class="alert alert-success">
+        Registration successful! Welcome to the gym!
+    </div>
+
+    <h1>Membership Information</h1>
+
+    <ul class="list-group my-3">
+        <li class="list-group-item"><strong>First Name:</strong> {{ member.first_name }}</li>
+        <li class="list-group-item"><strong>Last Name:</strong> {{ member.last_name }}</li>
+        <li class="list-group-item"><strong>Email:</strong> {{ member.email }}</li>
+        <li class="list-group-item"><strong>Birthdate:</strong> {{ member.birthdate|date:"F j, Y" }} <span class="text-muted">({{ member.birthdate|timesince }} years old)</span></li>
+        <li class="list-group-item"><strong>Start Date:</strong> {{ member.start_date|date:"F j, Y" }} <span class="text-muted">({{ member.start_date|timesince }} ago)</span></li>
+    </ul>
+
+    <a href="{% url 'home' %}" class="btn btn-success">Go to Home</a>
+{% endblock %}

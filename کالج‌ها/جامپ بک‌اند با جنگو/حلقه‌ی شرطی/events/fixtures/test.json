@@ -1,0 +1,92 @@
+[
+    {
+        "model": "events.event",
+        "pk": 1,
+        "fields": {
+            "title": "event #1",
+            "description": "some text is here...",
+            "date": "3000-01-10"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 2,
+        "fields": {
+            "title": "event #2",
+            "description": "",
+            "date": "3000-01-22"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 3,
+        "fields": {
+            "title": "event #3",
+            "description": "some text is here...",
+            "date": "3000-03-05"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 4,
+        "fields": {
+            "title": "event #4",
+            "description": "some text is here...",
+            "date": "3000-04-12"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 5,
+        "fields": {
+            "title": "event #5",
+            "description": "",
+            "date": "3000-04-18"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 6,
+        "fields": {
+            "title": "event #6",
+            "description": "",
+            "date": "3000-04-29"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 7,
+        "fields": {
+            "title": "event #7",
+            "description": "",
+            "date": "3000-07-08"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 8,
+        "fields": {
+            "title": "event #8",
+            "description": "some text is here...",
+            "date": "3000-08-25"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 9,
+        "fields": {
+            "title": "event #9",
+            "description": "some text is here...",
+            "date": "3000-09-14"
+        }
+    },
+    {
+        "model": "events.event",
+        "pk": 10,
+        "fields": {
+            "title": "event #10",
+            "description": "some text is here...",
+            "date": "3000-12-28"
+        }
+    }
+]

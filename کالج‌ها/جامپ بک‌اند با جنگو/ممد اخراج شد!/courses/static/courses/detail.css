@@ -1,0 +1,53 @@
+body {
+    font-family: 'Vazir', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 40px 20px;
+    direction: rtl;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+a.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 18px;
+    background-color: #777;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+a.back-btn:hover {
+    background-color: #555;
+}
+
+.card-img-top {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    margin: 0 0 15px 0;
+    color: #00796b;
+}
+
+.price {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #388e3c;
+    margin: 0;
+}

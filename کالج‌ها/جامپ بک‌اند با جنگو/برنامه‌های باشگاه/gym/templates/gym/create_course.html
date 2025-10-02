@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Create Course{% endblock %}
+
+{% block content %}
+<div class="card shadow-sm p-4">
+    <h2 class="mb-4">Create New Course</h2>
+    <form method="post">
+        {% csrf_token %}
+        {% if form.non_field_errors %}
+            <div class="alert alert-danger pb-0">
+                {{ form.non_field_errors }}
+            </div>
+        {% endif %}
+        {% for field in form %}
+            <div class="mb-3">
+                {{ field.label_tag }}
+                {{ field }}
+                {% if field.help_text %}
+                    <div class="form-text">{{ field.help_text }}</div>
+                {% endif %}
+                {% for error in field.errors %}
+                    <div class="text-danger small">{{ error }}</div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+        <button type="submit" class="btn btn-primary mt-3">Create Course</button>
+    </form>
+</div>
+{% endblock %}

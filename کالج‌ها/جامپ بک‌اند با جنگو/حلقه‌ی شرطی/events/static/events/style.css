@@ -1,0 +1,79 @@
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+
+body {
+    font-family: "Vazirmatn", sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #e6ebf0);
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    color: #333;
+}
+
+h1 {
+    background: linear-gradient(90deg, #1976d2, #1565c0);
+    color: white;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 26px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+#content {
+    padding: 0 2rem;
+}
+
+.month-title {
+    font-size: 20px;
+    color: #444;
+    margin: 25px 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #1976d2;
+    display: inline-block;
+}
+
+.event-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.event-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1976d2;
+}
+
+.event-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.event-desc {
+    font-size: 15px;
+}
+
+.no-events {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    margin-top: 30px;
+}
+
+.row-light {
+    background-color: #ffffff; /* سفید */
+}
+
+.row-dark {
+    background-color: #f1f5f9; /* خاکستری خیلی روشن */
+}

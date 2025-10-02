@@ -1,0 +1,47 @@
+{% load humanize %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <title>لیست دوره‌ها</title>
+    <link rel="stylesheet" href="{% static 'courses/list.css' %}">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>لیست دوره‌ها</h1>
+        <a href="{% url 'home' %}">بازگشت به خانه</a>
+    </div>
+
+    <hr>
+
+    <div class="courses">
+        {% for course in courses %}
+        <div class="card">
+            {% if course.poster_url %}
+                <img src="{{ course.poster_url }}" alt="{{ course.title }}">
+            {% endif %}
+            <div class="card-body">
+                <h2 class="card-title">{{ course.title }}</h2>
+                <p class="price {% if course.price == 0 %}free{% else %}paid{% endif %}">
+                    {% if course.price == 0 %}
+                        رایگان
+                    {% else %}
+                        {{ course.price|intcomma }} تومان
+                    {% endif %}
+                </p>
+                <a href="{% url 'courses:detail' course.id %}" class="btn">جزئیات بیشتر</a>
+            </div>
+        </div>
+        {% empty %}
+            <p>هیچ دوره‌ای موجود نیست.</p>
+        {% endfor %}
+    </div>
+</div>
+
+</body>
+</html>

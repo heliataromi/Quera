@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>درباره ما</title>
+    <style>
+        @font-face {
+            font-family: 'Vazir';
+            src: url("{% static 'font/vazir.woff2' %}");
+        }
+    </style>
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+<body>
+    <div id="content">
+        <h1>درباره ما</h1>
+        <p>ما یک تیم توسعه‌دهنده هستیم که با عشق و علاقه محصولات با کیفیت می‌سازیم.</p>
+        <a href="{% url 'home' %}">بازگشت به خانه</a>
+    </div>
+    <footer dir="ltr">© {{ year }} All rights reserved.</footer>
+</body>
+</html>

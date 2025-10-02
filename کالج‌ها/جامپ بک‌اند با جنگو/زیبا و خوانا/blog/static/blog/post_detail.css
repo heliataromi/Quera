@@ -1,0 +1,61 @@
+.post-detail-card {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: linear-gradient(145deg, #f0f4ff, #d9e2ff);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 80, 0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2a2a72;
+}
+
+.post-detail-header {
+    border-bottom: 2px solid #6370c7;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.post-detail-title {
+    font-size: 2.8rem;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #1b2360;
+    margin-bottom: 0.5rem;
+}
+
+.post-detail-meta span {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    color: #4a4a9f;
+    font-weight: 600;
+}
+
+.post-category {
+    color: white !important;
+}
+
+.post-detail-content {
+    font-size: 1.2rem;
+    line-height: 1.75;
+    color: #3a3a7f;
+    margin-bottom: 2rem;
+    white-space: pre-line; /* برای حفظ سطرهای متن */
+}
+
+.post-detail-footer {
+    text-align: right;
+}
+
+.back-to-list {
+    font-weight: 600;
+    color: #3a4a9f;
+    text-decoration: none;
+    border-bottom: 1.5px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.back-to-list:hover {
+    border-color: #3a4a9f;
+}
