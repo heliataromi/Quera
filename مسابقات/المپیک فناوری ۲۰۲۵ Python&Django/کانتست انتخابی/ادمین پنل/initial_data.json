@@ -1,0 +1,123 @@
+[
+  {
+    "model": "university.department",
+    "pk": 1,
+    "fields": {
+      "name": "Computer Science",
+      "code": "CS",
+      "head_of_department": null
+    }
+  },
+  {
+    "model": "university.department",
+    "pk": 2,
+    "fields": {
+      "name": "Mathematics",
+      "code": "MATH",
+      "head_of_department": null
+    }
+  },
+  {
+    "model": "university.professor",
+    "pk": 1,
+    "fields": {
+      "full_name": "Dr. Alan Turing",
+      "email": "turing@university.edu",
+      "department": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "university.professor",
+    "pk": 2,
+    "fields": {
+      "full_name": "Dr. Emmy Noether",
+      "email": "noether@university.edu",
+      "department": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "university.department",
+    "pk": 1,
+    "fields": {
+      "name": "Computer Science",
+      "code": "CS",
+      "head_of_department": 1
+    }
+  },
+  {
+    "model": "university.student",
+    "pk": 1,
+    "fields": {
+      "full_name": "Alice Smith",
+      "email": "alice@university.edu",
+      "enrollment_year": 2022,
+      "is_active": true,
+      "advisor": 1
+    }
+  },
+  {
+    "model": "university.student",
+    "pk": 2,
+    "fields": {
+      "full_name": "Bob Johnson",
+      "email": "bob@university.edu",
+      "enrollment_year": 2023,
+      "is_active": true,
+      "advisor": 2
+    }
+  },
+  {
+    "model": "university.course",
+    "pk": 1,
+    "fields": {
+      "title": "Intro to Programming",
+      "code": "CS101",
+      "credits": 3,
+      "department": 1,
+      "instructors": [1]
+    }
+  },
+  {
+    "model": "university.course",
+    "pk": 2,
+    "fields": {
+      "title": "Linear Algebra",
+      "code": "MATH201",
+      "credits": 4,
+      "department": 2,
+      "instructors": [2]
+    }
+  },
+  {
+    "model": "university.enrollment",
+    "pk": 1,
+    "fields": {
+      "student": 1,
+      "course": 1,
+      "semester": "Fall 2024",
+      "grade": 18.5
+    }
+  },
+  {
+    "model": "university.enrollment",
+    "pk": 2,
+    "fields": {
+      "student": 1,
+      "course": 2,
+      "semester": "Fall 2024",
+      "grade": 17.0
+    }
+  },
+  {
+    "model": "university.enrollment",
+    "pk": 3,
+    "fields": {
+      "student": 2,
+      "course": 2,
+      "semester": "Fall 2024",
+      "grade": null
+    }
+  }
+]

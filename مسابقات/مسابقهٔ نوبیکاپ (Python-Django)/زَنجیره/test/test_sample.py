@@ -1,7 +1,5 @@
 import unittest
-import sys
-sys.path.append('../Initial_project')
-from ..chain import Chain
+from chain import Chain
 
 class TestFind(unittest.TestCase):
 

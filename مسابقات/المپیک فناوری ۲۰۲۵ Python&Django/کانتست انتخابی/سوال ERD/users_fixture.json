@@ -1,0 +1,59 @@
+[
+  {
+    "model": "users_app.adminuser",
+    "pk": 1,
+    "fields": {
+      "firstname": "Ali",
+      "lastname": "Safari",
+      "email": "ali@example.com",
+      "phone": "+981234567890",
+      "password": "pbkdf2_sha256$260000$example$encryptedpasswordstring",
+      "national_id": "1234567890",
+      "address": "Tehran, Iran",
+      "admin_code": "ADM001",
+      "permissions_json": "{\"can_add_user\": true, \"can_delete_user\": false}",
+      "status": "active",
+      "joined_at": "2023-01-10T12:00:00Z"
+    }
+  },
+  {
+    "model": "users_app.customeruser",
+    "pk": 1,
+    "fields": {
+      "firstname": "Sara",
+      "lastname": "Azimi",
+      "email": "sara@example.com",
+      "phone": "+989123456789",
+      "password": "pbkdf2_sha256$260000$example$encryptedpasswordstring",
+      "national_id": "0987654321",
+      "address": "Isfahan, Iran",
+      "zipcode": "817961",
+      "birth_date": "1990-05-15",
+      "gender": "female",
+      "loyalty_points": 120,
+      "status": "active",
+      "joined_at": "2023-02-15T10:30:00Z"
+    }
+  },
+  {
+    "model": "users_app.vendoruser",
+    "pk": 1,
+    "fields": {
+      "firstname": "Reza",
+      "lastname": "Gholami",
+      "email": "reza@shop.com",
+      "phone": "+989122223333",
+      "password": "pbkdf2_sha256$260000$example$encryptedpasswordstring",
+      "national_id": "1122334455",
+      "address": "Shiraz, Iran",
+      "shop_name": "Reza Electronics",
+      "shop_address": "Shiraz, Ferdowsi Street",
+      "shop_license_number": "LIC12345",
+      "shop_phone": "+987112223344",
+      "rating": 4.5,
+      "is_verified": true,
+      "status": "active",
+      "joined_at": "2023-03-20T14:00:00Z"
+    }
+  }
+]

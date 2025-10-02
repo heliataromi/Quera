@@ -3,30 +3,18 @@ class Chain:
         self.result = value
 
     def __call__(self, value):
-        if isinstance(self.result, (int, float)):
-            try:
-                self.result += value
-                return self
-            except:
-                raise Exception('invalid operation')
-        elif isinstance(self.result, str):
-            try:
-                self.result += ' ' + value
-                return self
-            except:
-                raise Exception('invalid operation')
-        raise Exception('invalid operation')
+        if isinstance(self.result, (int, float)) and isinstance(value, (int, float)):
+            self.result += value
+        elif isinstance(self.result, str) and isinstance(value, str):
+            self.result += ' ' + value
+        else:
+            raise Exception('invalid operation')
+        return self
 
     def __repr__(self):
-        if isinstance(self.result, float):
-            frac = self.result - int(self.result)
-            if frac == 0:
-                return str(int(self.result))
-        return str(self.result)
+        if isinstance(self.result, float) and self.result.is_integer():
+            return repr(int(self.result))
+        return repr(self.result)
 
     def __eq__(self, other):
         return self.result == other
-
-
-if __name__ == '__main__':
-    print(Chain('Ali')(5))
