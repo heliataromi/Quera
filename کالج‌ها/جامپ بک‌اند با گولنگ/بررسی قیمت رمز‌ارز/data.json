@@ -1,0 +1,82 @@
+{
+  "eth-rls": {
+    "status": "OK",
+    "stats": { "eth-rls": { "latest": "12318.3267662420965821" } }
+  },
+  "btc-rls": {
+    "status": "OK",
+    "stats": { "btc-rls": { "latest": "18297318.3267662420965821" } }
+  },
+  "usdt-rls": {
+    "status": "OK",
+    "stats": { "usdt-rls": { "latest": "591518.3267662420965821" } }
+  },
+  "ltc-rls": {
+    "status": "OK",
+    "stats": { "ltc-rls": { "latest": "519218.3267662420965821" } }
+  },
+  "rls-eth": {
+    "status": "OK",
+    "stats": { "rls-eth": { "latest": "512518.3267662420965821" } }
+  },
+  "rls-btc": {
+    "status": "OK",
+    "stats": { "rls-btc": { "latest": "51618.3267662420965821" } }
+  },
+  "rls-usdt": {
+    "status": "OK",
+    "stats": { "rls-usdt": { "latest": "19518.3267662420965821" } }
+  },
+  "rls-ltc": {
+    "status": "OK",
+    "stats": { "rls-ltc": { "latest": "60618.3267662420965821" } }
+  },
+  "btc-eth": {
+    "status": "OK",
+    "stats": { "btc-eth": { "latest": "18.3267662420965821" } }
+  },
+  "btc-ltc": {
+    "status": "OK",
+    "stats": { "btc-ltc": { "latest": "466.3091629750524598" } }
+  },
+  "btc-usdt": {
+    "status": "OK",
+    "stats": { "btc-usdt": { "latest": "28650.385" } }
+  },
+  "eth-btc": {
+    "status": "OK",
+    "stats": { "eth-btc": { "latest": "0.054565" } }
+  },
+  "eth-ltc": {
+    "status": "OK",
+    "stats": { "eth-ltc": { "latest": "25.46674255976584833" } }
+  },
+  "eth-usdt": {
+    "status": "OK",
+    "stats": { "eth-usdt": { "latest": "1564.73" } }
+  },
+  "ltc-btc": {
+    "status": "OK",
+    "stats": { "ltc-btc": { "latest": "0.0021445" } }
+  },
+  "ltc-eth": {
+    "status": "OK",
+    "stats": { "ltc-eth": { "latest": "0.039266898687697252" } }
+  },
+  "ltc-usdt": {
+    "status": "OK",
+    "stats": { "ltc-usdt": { "latest": "61.460191806973619088" } }
+  },
+  "usdt-btc": {
+    "status": "OK",
+    "stats": { "usdt-btc": { "latest": "0.0000349035449262" } }
+  },
+  "usdt-eth": {
+    "status": "OK",
+    "stats": { "usdt-eth": { "latest": "0.000639087893758" } }
+  },
+  "usdt-ltc": {
+    "status": "OK",
+    "stats": { "usdt-ltc": { "latest": "0.016270531793787628665" } }
+  }
+}
